@@ -24,7 +24,7 @@ namespace Zadacha1
         }
         static async void FactorialAsync(int n)
         {
-            Console.WriteLine("Начинаем вычисляем факториал:");
+            Console.WriteLine("Начинаем вычислять факториал:");
             await Task.Run(() =>
             {
                 int result = 1;
